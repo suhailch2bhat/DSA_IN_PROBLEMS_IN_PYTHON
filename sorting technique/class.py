@@ -1,3 +1,46 @@
+# MODIFY CLASS CONCEPT BY OWN EX
+# class father:
+#     def __init__ (self,name):
+#          self.name=name;
+#     def display(self):
+#         print(self.name)
+#     def working(self):
+#         print("inworking phase show",self.name)
+# person=father("my father khazir")      
+# person.display()
+# person.working()
+# class father:
+#     def __init__ (self,name):
+#          self.name=name;
+#     def getfather(self):
+#         return self.name
+# class son(father):
+#     def __init__ (self,name,sonn):
+#         father. __init__ (self,name)
+#         self.sonn=sonn
+#     def display(self):
+#         print(self.name+"  son is "+self.sonn )
+# person=son("khazir","suhail")  
+# person.display()
+# class fatherr:
+    
+#     def father(self):  
+#         return self.father
+# class motherr:
+#     # b = 0
+#     def mother(self):
+#         return self.mother
+# class person(fatherr, motherr):
+#     def __init__ (self,name):
+#         self.name=name
+#     def detail(self):
+#         print("my parents name is ",self.father," and ",self.mother," "," whose son is ",self.name)
+# person1 = person("suhail")
+# person1.father = input("Enter the required name father: ")
+# person1.mother= input("Enter the required name mother: ")
+# person1.detail()
+
+
 # BASIC PROGRAM ON CLASS
 # CLASS IS NOTHING BLUE PRINT
 # class dog:
