@@ -182,3 +182,23 @@
 # obj_gr.tree_type()
 # obj_herbs.grass()
 # IF YOU LEARN SOME THING LEARN WEBSITE NAME{EDUCBA}
+class father:
+    def __init__ (self,name):
+         self.name=name;
+    def getfather(self):
+        return self.name
+class mather:
+    def __init__ (self,mmm):
+         self.mmm=mmm;
+    def getMather(self):
+        return self.mmm      
+class son(father,mather):
+    def __init__ (self,name,mmm,sonn):
+        father. __init__ (self,name)
+        mather. __init__ (self,mmm)
+        self.sonn=sonn
+    def display(self):
+        print(self.name+self.mmm+self.sonn )
+person=son(123,20,7)  
+person.display()
+
